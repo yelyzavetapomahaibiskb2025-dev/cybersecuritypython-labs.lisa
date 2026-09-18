@@ -1,0 +1,146 @@
+[
+  {
+    "event": "login",
+    "user": "alice_sec",
+    "result": "success",
+    "timestamp": "2026-09-17 12:35:21",
+    "args": [
+      "alice_sec",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "bob_admin",
+    "result": "failure",
+    "timestamp": "2026-09-17 12:35:21",
+    "args": [
+      "bob_admin",
+      "WrongPass999",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "unknown_user",
+    "result": "failure",
+    "timestamp": "2026-09-17 12:35:21",
+    "args": [
+      "unknown_user",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "diana_dev",
+    "result": "failure",
+    "timestamp": "2026-09-17 12:35:21",
+    "args": [
+      "diana_dev",
+      "short",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alice_sec",
+    "result": "success",
+    "timestamp": "2026-09-17 19:54:28",
+    "args": [
+      "alice_sec",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "bob_admin",
+    "result": "failure",
+    "timestamp": "2026-09-17 19:54:28",
+    "args": [
+      "bob_admin",
+      "WrongPass999",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "unknown_user",
+    "result": "failure",
+    "timestamp": "2026-09-17 19:54:28",
+    "args": [
+      "unknown_user",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "diana_dev",
+    "result": "failure",
+    "timestamp": "2026-09-17 19:54:28",
+    "args": [
+      "diana_dev",
+      "short",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "alice_sec",
+    "result": "success",
+    "timestamp": "2026-09-18 10:38:44",
+    "args": [
+      "alice_sec",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "bob_admin",
+    "result": "failure",
+    "timestamp": "2026-09-18 10:38:44",
+    "args": [
+      "bob_admin",
+      "WrongPass999",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "unknown_user",
+    "result": "failure",
+    "timestamp": "2026-09-18 10:38:44",
+    "args": [
+      "unknown_user",
+      "P@ssword123",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  },
+  {
+    "event": "login",
+    "user": "diana_dev",
+    "result": "failure",
+    "timestamp": "2026-09-18 10:38:44",
+    "args": [
+      "diana_dev",
+      "short",
+      "[('alice_sec', 'a32d3c8fd9bb929f6669744b31e896f1673644fa'), ('bob_admin', '2427ce9394294abd5c3f859cd3dc0c461aee2f3c'), ('charlie_q', '2011f049a218a8942d5c0838f93491923c1245b2'), ('diana_dev', '0fc9018fa29fe24d5306c2bb54626d3e54045db8'), ('eve_tester', '48fc99ae223803fe10b2a1fe09f4c1ad60d994b6'), ('frank_net', '72e529b48340a0a1f1187c019786fa203b3706e5'), ('grace_sim', '7cbe132194041cf0a2c51af6f022c037234a0070'), ('heidi_audit', '99cf2e8bfee71ab8300d45482a80e9983aa72238'), ('ivan_crypto', '83d1df21d8393e98fe8530eee01d086f862c4a9e'), ('judy_analyst', '58cb501da01d34cfc7e0d5bd977aa78acf28403e')]"
+    ],
+    "kwargs": {}
+  }
+]
