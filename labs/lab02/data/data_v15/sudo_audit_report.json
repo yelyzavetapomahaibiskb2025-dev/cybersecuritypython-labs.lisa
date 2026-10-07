@@ -1,0 +1,82 @@
+{
+    "total_commands": 12,
+    "root_executions": 10,
+    "suspicious_count": 7,
+    "suspicious_executions": [
+        {
+            "user": "carol",
+            "tty": "pts/2",
+            "target_user": "root",
+            "command": "/usr/bin/chmod 777 /srv/share",
+            "timestamp": "2026-09-27T09:20:00+03:00"
+        },
+        {
+            "user": "carol",
+            "tty": "pts/2",
+            "target_user": "root",
+            "command": "/usr/bin/nc -lvp 4444",
+            "timestamp": "2026-09-27T09:30:00+03:00"
+        },
+        {
+            "user": "carol",
+            "tty": "pts/2",
+            "target_user": "root",
+            "command": "/usr/bin/nmap -sS 10.0.0.0/24",
+            "timestamp": "2026-09-27T09:32:00+03:00"
+        },
+        {
+            "user": "dave",
+            "tty": "pts/3",
+            "target_user": "root",
+            "command": "/usr/bin/dd if=/dev/zero of=/tmp/test.img bs=1M count=10",
+            "timestamp": "2026-09-27T10:00:00+03:00"
+        },
+        {
+            "user": "dave",
+            "tty": "pts/3",
+            "target_user": "root",
+            "command": "/usr/bin/vim /etc/shadow",
+            "timestamp": "2026-09-27T10:10:00+03:00"
+        },
+        {
+            "user": "carol",
+            "tty": "pts/2",
+            "target_user": "root",
+            "command": "/usr/bin/chmod 777 /tmp/public",
+            "timestamp": "2026-09-27T12:00:00+03:00"
+        },
+        {
+            "user": "carol",
+            "tty": "pts/2",
+            "target_user": "root",
+            "command": "/usr/bin/nc 203.0.113.10 9001",
+            "timestamp": "2026-09-27T12:05:00+03:00"
+        }
+    ],
+    "top_users": [
+        [
+            "carol",
+            5
+        ],
+        [
+            "alice",
+            3
+        ],
+        [
+            "dave",
+            2
+        ],
+        [
+            "bob",
+            1
+        ],
+        [
+            "eve",
+            1
+        ]
+    ],
+    "high_risk_users": {
+        "carol": 5,
+        "dave": 2
+    }
+}

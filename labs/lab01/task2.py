@@ -3,7 +3,7 @@ import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
-from shared.student import STUDENT_NAME, VARIANT_NUMBER  # type: ignore # noqa: E402
+from shared.student import STUDENT_NAME, VARIANT_NUMBER  # type: ignore
 
 USERS = {
     "quantum_researcher": {

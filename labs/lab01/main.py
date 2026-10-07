@@ -10,6 +10,7 @@ if str(BASE_DIR) not in sys.path:
 from task1 import run_task1
 from task2 import run_task2
 from task3 import run_task3
+
 from shared.student import GROUP_NAME, STUDENT_NAME, VARIANT_NUMBER  # type: ignore
 
 
