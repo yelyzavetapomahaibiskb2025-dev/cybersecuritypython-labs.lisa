@@ -10,9 +10,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"
 
 from shared.student import STUDENT_NAME, VARIANT_NUMBER  # type: ignore
 
-DATA_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "data")
-)
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "data"))
 CSV_FILE_PATH = os.path.join(DATA_DIR, "users.csv")
 LOG_FILE_PATH = os.path.join(DATA_DIR, "log.json")
 
@@ -22,7 +20,6 @@ PERSONAL_SALT = f"{VARIANT_NUMBER:05d}"  # '00015'
 
 class ValidationError(Exception):
     """Виняток невідповідності пароля мінімальним критеріям."""
-
 
 
 def generate_hash(password: str, salt: str = "00000") -> str:
@@ -43,9 +40,7 @@ def log_event(func):
 
     @wraps(func)
     def wrapper(*args, **kwargs):
-        username = kwargs.get(
-            "username", args[0] if len(args) > 0 else "unknown"
-        )
+        username = kwargs.get("username", args[0] if len(args) > 0 else "unknown")
         status = "failure"
         try:
             auth_ok = func(*args, **kwargs)
@@ -59,19 +54,14 @@ def log_event(func):
                 "event": "login",
                 "user": username,
                 "result": status,
-                "timestamp": datetime.now(timezone.utc).strftime(
-                    "%Y-%m-%d %H:%M:%S"
-                ),
+                "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S"),
                 "args": [str(a) for a in args],
                 "kwargs": {k: str(v) for k, v in kwargs.items()},
             }
             try:
                 os.makedirs(DATA_DIR, exist_ok=True)
                 logs = []
-                if (
-                    os.path.exists(LOG_FILE_PATH)
-                    and os.path.getsize(LOG_FILE_PATH) > 0
-                ):
+                if os.path.exists(LOG_FILE_PATH) and os.path.getsize(LOG_FILE_PATH) > 0:
                     with open(LOG_FILE_PATH, mode="r", encoding="utf-8") as f:
                         logs = json.load(f)
                 logs.append(entry)
@@ -156,7 +146,9 @@ def run_task3():
     """Запуск процедури реєстрації, читання та автентифікації."""
     print("=" * 60)
     print(f"Завдання 3 | {STUDENT_NAME} (Варіант {VARIANT_NUMBER})")
-    print(f"Сіль: '{PERSONAL_SALT}' | Алгоритм: SHA-1 | Мін. довжина: {MIN_PASSWORD_LENGTH}")
+    print(
+        f"Сіль: '{PERSONAL_SALT}' | Алгоритм: SHA-1 | Мін. довжина: {MIN_PASSWORD_LENGTH}"
+    )
     print("=" * 60)
 
     create_users(USERS_TO_REGISTER)
@@ -183,7 +175,7 @@ def run_task3():
 
     for u, p in test_attempts:
         try:
-            is_valid = login(u, p, users_db) # type: ignore
+            is_valid = login(u, p, users_db)  # type: ignore
             verdict = "ALLOW (Успішний вхід)" if is_valid else "DENY (Невірні дані)"
             print(f"user={u:<16} -> {verdict}")
         except ValidationError as ve:
